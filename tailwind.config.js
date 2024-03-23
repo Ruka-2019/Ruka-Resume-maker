@@ -20,6 +20,9 @@ module.exports = {
         skillTagBackground: '#00c8aa',
         skillTagText: '#ffffff',
       },
+      margin: {
+        '0.6': '0.15rem', // Assuming you want mt-0.6 to equal to 0.15rem
+      },
     },
   },
   variants: {

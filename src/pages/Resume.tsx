@@ -124,7 +124,7 @@ const Resume = () => {
                 </div>
                 <div className="mx-3 pt-0">
                     <div className="px-4 pt-2 sm:px-6">
-                        <dt className="text-xl font-bold uppercase tracking-wide text-mainThemeColor">Skills</dt>
+                        <dt className="text-xl font-bold uppercase tracking-wide text-mainThemeColor font-ubuntu">Skills</dt>
                     </div>
                     <dd className="px-4 py-1 sm:px-6 flex flex-wrap">
                         {/* Map skills here */}
@@ -137,10 +137,10 @@ const Resume = () => {
                 </div>
                 <div className="mx-3 pt-0">
                     <div className="px-4 py-1 sm:px-6">
-                        <h2 className="text-xl font-bold uppercase tracking-wide text-mainThemeColor">Work
+                        <h2 className="text-xl font-bold uppercase tracking-wide text-mainThemeColor font-ubuntu">Work
                             Experience</h2>
                     </div>
-                    <div className="bg-white px-4 sm:grid sm:grid-cols-1 sm:gap-0 sm:px-6">
+                    <div className="bg-white px-4 sm:grid sm:grid-cols-1 sm:gap-0 sm:px-6 -mt-1.5">
                         {workItems.map((item, index) => (
                             <WorkItem
                                 key={index}
@@ -154,13 +154,14 @@ const Resume = () => {
                     </div>
                 </div>
                 <div className="mx-3 pt-0">
-                    <div className="px-4 mt-1 sm:px-6">
-                        <h2 className="text-xl font-bold uppercase tracking-wide text-mainThemeColor">Education</h2>
+                    <div className="px-4 pt-2 sm:px-6">
+                        <h2 className="text-xl font-bold uppercase tracking-wide text-mainThemeColor font-ubuntu">Education</h2>
                     </div>
                     <div className="bg-white px-4 sm:grid sm:grid-cols-1 sm:gap-0 sm:px-6">
 
                         {education.map((item, index) => (
                             <EducationItem
+                                key={index}
                                 institution={item.institution}
                                 degree={item.degree}
                                 dateRange={item.dateRange}
@@ -172,7 +173,7 @@ const Resume = () => {
                 </div>
                 <div className="mx-3 mt-4">
                     <div className="px-4 mt-1 sm:px-6">
-                        <h2 className="text-xl font-bold uppercase tracking-wide text-mainThemeColor">Languages</h2>
+                        <h2 className="text-xl font-bold uppercase tracking-wide text-mainThemeColor font-ubuntu">Languages</h2>
                     </div>
                     <div className="bg-white px-4 pt-1 sm:grid sm:grid-cols-2 sm:gap-0 sm:px-6">
                         {languages.map((item, index) => (

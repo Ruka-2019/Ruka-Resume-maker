@@ -64,14 +64,14 @@ const Resume = () => {
             dateRange: ["10/2020", "05/2022"],
             skills: ["ASP.Net", ".Net Framework", "MSSQL", "VueJs", "GTM/GA", "GCP", "gRPC"],
             tasks: [
-                "Designed survey system using `.Net, MSSQL`, with flexible data structure capable of handling multiple use cases.",
-                "Designed & Implemented archtecture for `Authentication Service` using `.Net` (identity server4) for authenticate/authorize for all API calls for services.",
-                "Built `API Gateway` with pure `.Net` for `traffic management, authorization` and `RBAC` for API services.",
-                "Introduced full coverage of `Google Tag Manager & Analyzed` into product, increased analyzable data collection by 150%",
-                "Designed `distribute system` from monolithic backend with `Kubernetes`, reduced downtime and increase maintainability.",
-                "Designed and implemented a scalable `RESTful API`, written Unit tests and set up `CI/CD` with `Gitlab/Jenkins.`",
-                "Worked collaboratively with teammates and stakeholders with teammates/stakeholders with `Scrum` and `Agile Model.`",
-                "Leading projects for other junior developers and conducted code reviews."
+                "Designed survey system using `.Net` and `MSSQL` with a flexible data structure capable of handling multiple use cases.",
+                "Designed and implemented architecture for the `Authentication Service` using `.Net` (Identity Server 4) to authenticate/authorize backend services for the company.",
+                "Built an `API Gateway` with pure `.Net` for traffic management, authorization, and RBAC for API services.",
+                "Introduced full coverage of `Google Tag Manager & Analytics` into the product, increasing analyzable data collection by 150%.",
+                "Designed `distributed system` from a monolithic backend using `Kubernetes`, reducing downtime and increasing maintainability.",
+                "Designed and implemented scalable `RESTful APIs`, wrote unit tests, and set up `CI/CD` with `GitLab/Jenkins`.",
+                "Worked collaboratively with teammates and stakeholders using `Scrum` and `Agile Model`.",
+                "Led projects for other junior developers and conducted code reviews."
             ]
         }
     ];

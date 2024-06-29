@@ -25,7 +25,7 @@ const Resume = () => {
                 filename: 'resume.pdf',
                 image: {type: 'jpeg', quality: 1},
                 html2canvas: {
-                    scale: 3,
+                    scale: 2,
                     letterRendering: true,
                 },
                 jsPDF: {unit: 'mm', format: 'a4'}

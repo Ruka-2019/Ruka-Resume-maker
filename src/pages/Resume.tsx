@@ -44,16 +44,16 @@ const Resume = () => {
             comTitle: "Trend Micro Inc.",
             jobTitle: "Cloud Software Developer",
             dateRange: ["06/2022", "Present"],
-            skills: ["Golang", "Java", "Python", "dotnet", "AWS", "Azure", "K8s", "KQL", "Terraform"],
+            skills: ["Python", "Dotnet", "Golang", "Java", "AWS", "Azure", "K8s", "KQL", "Terraform"],
             tasks: [
                 "Developed security solutions using various `AWS Services (AWS Lambda, CloudWatch, DynamoDB, SQS, CF, ...etc).`",
-                "Developed security solutions using `Azure Services (CosmosDB, FunctionApp , OpenAI, Application Insights, ...etc).`",
-                "Maintained/developed multiple projects written in `Golang, Java, Python, Dotnet`, including SaaS and on premise product.",
-                "Cowork with threat experts and implement `CVE scanning features` with team members.",
-                "Implement features for Container Security for `EKS / ECS` to leverage container security configuration using VisionOne.",
+                "Developed security solutions using `Azure Services (Function app, CosmosDB, Blob Storage, OpenAI, ADX, ...etc).`",
+                "Co-work with threat experts and implement `CVE scanning feature` for multi linux distros (Debian, Oracle linux, ...etc).",
+                "Implement features for `Container Security for K8s/ EKS / ECS` to leverage container security configuration using VisionOne.",
                 "Set up `APM` for services with `Grafana` dashboard, collected and visualized logs for triage, alerts and sending notifications.",
-                "Design & Implement provision process for new service with `Golang, AWS Lambda, DynamoDB, Terraform, Serverless.`",
+                "Design & Implement provision service for new product with `Golang, AWS Lambda, DynamoDB, Terraform, Serverless.`",
                 "Performed `vulnerability scans` on projects using `Blackduck` and `Deep Security Smart Check`, implemented necessary changes.",
+                "Maintained/developed multiple projects written in `Golang, Java, Python, Dotnet`, including SaaS and on premise product.",
                 "Participate in products and feature development including `VisionOne, CloudOne, TippingPoint` etc."
             ]
         },
@@ -69,7 +69,7 @@ const Resume = () => {
                 "Built `API Gateway` with pure `.Net` for `traffic management, authorization` and `RBAC` for API services.",
                 "Introduced full coverage of `Google Tag Manager & Analyzed` into product, increased analyzable data collection by 150%",
                 "Designed `distribute system` from monolithic backend with `Kubernetes`, reduced downtime and increase maintainability.",
-                "Designed and implemented a scalable `RESTful API`, written Unit tests and set up `Ci/CD` with `Gitlab/Jenkins.`",
+                "Designed and implemented a scalable `RESTful API`, written Unit tests and set up `CI/CD` with `Gitlab/Jenkins.`",
                 "Worked collaboratively with teammates and stakeholders with teammates/stakeholders with `Scrum` and `Agile Model.`",
                 "Leading projects for other junior developers and conducted code reviews."
             ]
@@ -108,7 +108,7 @@ const Resume = () => {
                  style={{width: '210mm', height: '297mm'}}>
             <div ref={resumeRef}>
                 <div className="mt-3 mx-3 px-4 py-5 sm:px-6 border-b border-gray-200">
-                    <h3 className="text-4xl text-gray-900 font-ubuntu">Jian Lin</h3>
+                    <h3 className="text-4xl text-gray-900 font-ubuntu">Ruka Lin</h3>
                     <p className="mt-3 mb-4 max-w-2xl text-1.5xl text-gray-500 font-ubuntu">Software Engineer</p>
                     <p className="text-gray-700 text-1xl font-ubuntu">Computer Science and Engineering</p>
                 </div>
